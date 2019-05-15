@@ -1,7 +1,7 @@
 {
   "name": "a_plant_theme",
   "dark": true,
-  "author": "",
+  "author": "jjaeeh",
   "editorScheme": "/a_plant_theme.xml",
   "ui": {
     "*": {
@@ -124,12 +124,12 @@
       "underlineColor": "#B8CF52"
     },
     "FileColor": {
-      "Blue": "#B8CF52",
-      "Green": "#a3be8c",
-      "Orange": "#e5a2a2",
-      "Rose": "#FC9797",
-      "Violet": "#b48ead",
-      "Yellow": "#ebcb8b"
+      "Blue": "#B8CF5285",
+      "Green": "#a3be8c85",
+      "Orange": "#e5a2a285",
+      "Rose": "#FC979785",
+      "Violet": "#b48ead85",
+      "Yellow": "#ebcb8b85"
     },
     "Group": {
       "disabledSeparatorColor": "#475363"
