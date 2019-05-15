@@ -1,0 +1,44 @@
+<idea-plugin>
+  <id>com.com.jjaeeh</id>
+  <name>a plant theme</name>
+  <version>1.0</version>
+  <vendor email="jjaeeh.github" url="jjaeeh.github">no company</vendor>
+
+  <description><![CDATA[
+      a theme for plants
+      <br><br>
+      To install:
+  <ul>
+  <li>Go to <i>Settings (Preferences) | Plugins</i>, find the theme plugin and install it</li>
+  <li>Restart IDE</li>
+  <li>Go to <i>Settings (Preferences) | Appearance & Behavior | Appearance</i> and see the <i>Theme</i> dropdown</li>
+  </ul>
+  <br/>
+    ]]></description>
+
+  <change-notes><![CDATA[
+0.0.0.0.0.1 nothing much to say
+<br>
+added installation instructions
+]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="9ae102b4-ab25-4c35-bebd-3e85395bb4f7" path="/a_plant_theme.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
